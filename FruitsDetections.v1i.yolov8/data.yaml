@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/FruitsDetections.v1i.yolov8/train
+val: /content/drive/MyDrive/FruitsDetections.v1i.yolov8/valid
+test: /content/drive/MyDrive/FruitsDetections.v1i.yolov8/test
+nc: 4
+names: ['Apple', 'Chilli', 'Lemon', 'Tomato']
+
+roboflow:
+  workspace: bietto
+  project: tgmt-final
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bietto/tgmt-final/dataset/1
